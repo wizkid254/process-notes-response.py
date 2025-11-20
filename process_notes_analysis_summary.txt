@@ -1,0 +1,99 @@
+Data Shape: (4475, 12)
+Columns: ['Counsellor', 'Client', 'Session Date', 'Session Duration', 'Phase', 'Process', 'Evaluation', 'Planning', 'Session Duration Numeric', 'Process Word Count', 'Evaluation Word Count', 'Planning Word Count']
+
+Data Types:
+Counsellor                          object
+Client                              object
+Session Date                datetime64[ns]
+Session Duration                    object
+Phase                               object
+Process                             object
+Evaluation                          object
+Planning                            object
+Session Duration Numeric           float64
+Process Word Count                   int64
+Evaluation Word Count                int64
+Planning Word Count                  int64
+dtype: object
+
+Missing Values:
+Counsellor                  0
+Client                      0
+Session Date                0
+Session Duration            0
+Phase                       0
+Process                     0
+Evaluation                  0
+Planning                    0
+Session Duration Numeric    0
+Process Word Count          0
+Evaluation Word Count       0
+Planning Word Count         0
+dtype: int64
+
+Value counts for Counsellor:
+Counsellor
+Onthene       495
+Persty        474
+Octavea       395
+Daniele       371
+Margret       366
+Morne         365
+Mart          297
+Wendy         281
+Innocentia    268
+Megan         183
+Sunette       135
+Wayde         110
+Patrick       105
+Moses          90
+Diederick      86
+Kerileng       67
+Steve          60
+Hilton         53
+Marlise        52
+Chris          44
+Hennie         41
+Etienne        39
+Keletso        35
+Janine         25
+Desmond        15
+Kirk           10
+Mitch           8
+Mvume           4
+Sarah           1
+Name: count, dtype: int64
+
+Value counts for Phase:
+Phase
+IDP                     651
+Step 1                  650
+Check in                640
+Assessment              525
+Occupational Therapy    268
+Step 2                  245
+Life Story              232
+Step 4                  232
+Step 3                  207
+Family                  179
+Step Work Feedback      126
+Life Coaching            77
+Step 5                   74
+Intervention             70
+Step 6                   57
+Reflections              38
+Step 7                   37
+Step 9                   32
+Step 8                   28
+Step 12                  26
+Resentment               19
+Step 11                  14
+Aftercare                11
+Step 10                  11
+Defects                  10
+Amends                    6
+Coaching                  6
+Step work feedback        3
+Employer                  1
+Name: count, dtype: int64
+
